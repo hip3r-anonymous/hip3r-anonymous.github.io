@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction</title>
+  <meta name="description" content="Reconstruction videos, interactive indoor maps, and trajectory comparisons for HiP3R.">
+  <script>
+    (function () {
+      var key = "vggt-showcase-theme";
+      var root = document.documentElement;
+      try {
+        var saved = window.localStorage.getItem(key);
+        root.dataset.theme = saved === "light" || saved === "dark" ? saved : "light";
+      } catch (err) {
+        root.dataset.theme = "light";
+      }
+    }());
+  </script>
+  <link rel="stylesheet" href="style.css?v=hip3r-anonymous-compare-20261112">
+  <link rel="stylesheet" href="stage-details.css?v=overview-20261117">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="topbar">
+    <a class="site-brand" href="./" aria-label="HiP3R home"><span class="brand-lockup" aria-hidden="true"><span class="brand-letter">H</span><svg class="brand-bolt" viewBox="0 0 44 80" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false"><path class="bolt-face" d="M27 0H44L28 30H42L5 80L15 45H0L27 0Z"/><path class="bolt-edge" d="M28 30H42L5 80L30 38H19L36 0H44L28 30Z"/></svg><span class="brand-letter brand-ending">P3R</span></span></a>
+    <div class="topbar-actions">
+      <nav aria-label="Showcase navigation">
+        <a href="#compare">Trajectory Comparison</a>
+        <a href="#glbs">Long-Horizon 3D Reconstruction</a>
+        <a href="#local-details">Local refinement</a>
+        <a href="#videos">Reconstruction videos</a>
+        <a href="#method">Method</a>
+      </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme" title="Switch color theme">
+        <span class="theme-icon theme-icon-sun" aria-hidden="true">☀</span>
+        <span class="theme-icon theme-icon-moon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <div class="loading-card">Loading public showcase data...</div>
+  </main>
+
+  <footer class="site-footer"><a href="./" class="footer-brand" aria-label="HiP3R home"><span class="brand-lockup" aria-hidden="true"><span class="brand-letter">H</span><svg class="brand-bolt" viewBox="0 0 44 80" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false"><path class="bolt-face" d="M27 0H44L28 30H42L5 80L15 45H0L27 0Z"/><path class="bolt-edge" d="M28 30H42L5 80L30 38H19L36 0H44L28 30Z"/></svg><span class="brand-letter brand-ending">P3R</span></span></a><a href="#app">Back to top ↑</a></footer>
+
+  <script src="vendor/three-r128/three.min.js"></script>
+  <script src="vendor/three-r128/TrackballControls.js"></script>
+  <script src="vendor/three-r128/GLTFLoader.js"></script>
+  <script src="viewer.js?v=long-opposite-view-20261112"></script>
+  <script src="assets/showcase/manifest.js?v=display-only-20261117"></script>
+  <script src="video-trajectory.js?v=hip3r-benchmark-videos-20261021"></script>
+  <script src="assets/interactive/manifest.js?v=hip3r-display-dock-20261021"></script>
+  <script src="long-stages.js?v=20261117"></script>
+  <script src="stage-details.js?v=overview-20261117"></script>
+  <script src="page.js?v=section-order-20261117"></script>
+</body>
+</html>

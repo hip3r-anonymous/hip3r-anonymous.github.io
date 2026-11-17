@@ -1,0 +1,31 @@
+{
+  "methods": [
+    {
+      "label": "VGGT-Long",
+      "points": "assets/long-stages/1.bin",
+      "rgb": "assets/long-stages/1-rgb.bin"
+    },
+    {
+      "label": "HiP3R Stage I",
+      "points": "assets/long-stages/2.bin",
+      "rgb": "assets/long-stages/2-rgb.bin"
+    },
+    {
+      "label": "HiP3R Stage II",
+      "points": "assets/long-stages/3.bin",
+      "rgb": "assets/long-stages/3-rgb.bin"
+    }
+  ],
+  "bounds": [
+    [
+      -106.14089917253479,
+      -51.2597730534228,
+      -30.744537729388384
+    ],
+    [
+      107.0831101076393,
+      88.98744002007545,
+      34.25562609123411
+    ]
+  ]
+}

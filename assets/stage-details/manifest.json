@@ -1,0 +1,150 @@
+{
+  "cases": [
+    {
+      "id": "case-3",
+      "label": "VBR \u00b7 Spagna",
+      "title": "Edge alignment",
+      "frame": 3717,
+      "pointsPerChunk": 20676,
+      "localPointsPerChunk": 2676,
+      "stage1": "assets/stage-details/case-3-stage1.bin",
+      "stage2": "assets/stage-details/case-3-stage2.bin",
+      "rgb": "assets/stage-details/case-3-rgb.bin",
+      "image": "assets/stage-details/case-3-input.jpg",
+      "imageROI": [
+        0.6162790697674418,
+        0.90625,
+        0.8808139534883721,
+        1.0
+      ],
+      "localBounds": [
+        [
+          -0.15967967396693067,
+          -0.19444882708279587,
+          -0.5754801079671341
+        ],
+        [
+          0.4420530731707353,
+          0.21795206649083476,
+          0.8476944595975239
+        ]
+      ],
+      "contextBounds": [
+        [
+          -9.694983649682642,
+          -4.809927048249193,
+          -4.876262716822702
+        ],
+        [
+          0.7073476571805237,
+          0.39448981947748346,
+          5.008602844123712
+        ]
+      ],
+      "disagreement": [
+        0.18870639553784596,
+        0.019243789044925873
+      ],
+      "reduction": 89.80225922387118
+    },
+    {
+      "id": "case-1",
+      "label": "Oxford \u00b7 Keble",
+      "title": "Window alignment",
+      "frame": 119,
+      "pointsPerChunk": 30000,
+      "localPointsPerChunk": 12000,
+      "stage1": "assets/stage-details/case-1-stage1.bin",
+      "stage2": "assets/stage-details/case-1-stage2.bin",
+      "rgb": "assets/stage-details/case-1-rgb.bin",
+      "image": "assets/stage-details/case-1-input.jpg",
+      "imageROI": [
+        0.0,
+        0.3611111111111111,
+        1.0,
+        0.8587962962962963
+      ],
+      "localBounds": [
+        [
+          -5.06578751410978,
+          -0.5852340477905171,
+          -0.9228212776428284
+        ],
+        [
+          1.5722986520019668,
+          0.4042324140877629,
+          1.473434089277085
+        ]
+      ],
+      "contextBounds": [
+        [
+          -5.290289476153656,
+          -3.1681466620714507,
+          -1.07798970044264
+        ],
+        [
+          1.6994163437827063,
+          1.0546154841230289,
+          1.5039345934041644
+        ]
+      ],
+      "disagreement": [
+        1.6056639341243677,
+        0.13445582501223619
+      ],
+      "reduction": 91.62615400678098
+    },
+    {
+      "id": "case-2",
+      "label": "VBR \u00b7 Campus",
+      "title": "Surface alignment",
+      "frame": 765,
+      "pointsPerChunk": 19385,
+      "localPointsPerChunk": 1385,
+      "stage1": "assets/stage-details/case-2-stage1.bin",
+      "stage2": "assets/stage-details/case-2-stage2.bin",
+      "rgb": "assets/stage-details/case-2-rgb.bin",
+      "image": "assets/stage-details/case-2-input.jpg",
+      "imageROI": [
+        0.8590116279069767,
+        0.0,
+        0.9534883720930233,
+        0.25
+      ],
+      "localBounds": [
+        [
+          -0.633259741864332,
+          -0.4835288894843749,
+          -0.535754588547808
+        ],
+        [
+          1.1568169040164848,
+          0.47033568785429086,
+          0.4189833413960592
+        ]
+      ],
+      "contextBounds": [
+        [
+          -14.87685331526618,
+          -4.945742681302526,
+          -7.169845354873557
+        ],
+        [
+          5.512708783617979,
+          10.49387053562855,
+          5.135721679734066
+        ]
+      ],
+      "disagreement": [
+        0.5557097054441776,
+        0.13891689986261946
+      ],
+      "reduction": 75.00189424412096
+    }
+  ],
+  "colors": [
+    "#0072B2",
+    "#D55E00"
+  ],
+  "metric": "Median paired-point disagreement (m)"
+}
